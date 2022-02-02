@@ -6,6 +6,7 @@ import img3 from "../../images/svg-3.svg";
 // Types
 export type InfoProps = {
   id: string;
+  to: string;
   topLine: string;
   headline: string;
   descriptions: string;
@@ -23,6 +24,7 @@ export type InfoProps = {
 
 export const PrimoHomeInfoRow: InfoProps = {
   id: "about",
+  to: "signin",
   topLine: "Premium Bank",
   headline: "Unlimited Transactions with zero fees",
   descriptions:
@@ -38,6 +40,7 @@ export const PrimoHomeInfoRow: InfoProps = {
 
 export const SecundoHomeInfoRow: InfoProps = {
   id: "discovery",
+  to: "about",
   topLine: "Unlimited Access",
   headline: "Login to your account at any time",
   descriptions:
@@ -50,6 +53,7 @@ export const SecundoHomeInfoRow: InfoProps = {
 
 export const TertioHomeInfoRow: InfoProps = {
   id: "signin",
+  to: "home",
   topLine: "Join our Team",
   headline: "Creating an account is extremely easy",
   descriptions:

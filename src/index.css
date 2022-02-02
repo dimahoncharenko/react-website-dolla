@@ -3,7 +3,7 @@
 :root {
   box-sizing: border-box;
   --navbar-height: 80px;
-  --hero-height: 700px;
+  --hero-height: 800px;
   --button-radius: 2em;
   --link-color: black;
   --link-hover: #01bf71;

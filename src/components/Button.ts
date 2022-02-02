@@ -24,6 +24,6 @@ export const Button = styled(Link)<{
 
   &:hover {
     background-color: ${({ primary }) => (primary ? "#f9f9f9" : "#01bf71")};
-    color: ${({ dark }) => (dark ? "#f9f9f9" : "#010606")};
+    color: #010606;
   }
 `;

@@ -6,10 +6,14 @@ export const InfoContainer = styled.div<{
   display: flex;
   flex-direction: column;
   background-color: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-  padding: 3em 1em;
+  padding: 1em 1em;
 
-  @media screen and (min-width: 1400px) {
-    padding: 5em 1em;
+  @media screen and (min-width: 768px) {
+    padding: 3em 1em;
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 8em 1em;
   }
 `;
 

@@ -21,6 +21,7 @@ import { InfoProps } from "./data";
 
 export const Info = ({
   id,
+  to,
   headline,
   descriptions,
   buttonLabel,
@@ -47,10 +48,12 @@ export const Info = ({
             <BtnWrap>
               <Button
                 primary={primary}
+                duration={500}
+                smooth
                 dark={dark}
                 fontbig={fontbig}
                 big={big}
-                to="signup"
+                to={to}
               >
                 {buttonLabel}
               </Button>

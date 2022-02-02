@@ -19,7 +19,7 @@ export const Hero = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBGOverlay />
       <HeroBG>
         <VideoBG src={video} autoPlay loop muted />
