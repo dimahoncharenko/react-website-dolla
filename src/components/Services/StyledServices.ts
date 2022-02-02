@@ -6,6 +6,15 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1em 1em;
+
+  @media screen and (min-width: 768px) {
+    padding: 2em 1em;
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 5em 1em;
+  }
 `;
 
 export const ServicesHeading = styled.h1`
